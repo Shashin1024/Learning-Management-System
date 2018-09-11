@@ -1,0 +1,212 @@
+*{margin: 0;padding: 0;}
+
+.clearfix{overflow: auto;}
+
+a{text-decoration: none;color: red;}
+
+p{margin-bottom: 15px;margin-top: 10px;font-size: 18px; color: #444; }
+
+.wrapper{
+  width: 1000px;
+  margin: 0 auto; 
+}
+
+.top-bar{           /*top bars*/
+  width: 1000px;
+  background: #98dde2;
+}
+
+.top-bar-links{
+  float: right;
+}
+
+.top-bar-links ul{
+  list-style: none;
+  margin: 20px;
+}
+
+.top-bar-links ul li{
+  padding: 0 15px;
+  display: inline-block;
+  border-right: 1px solid black;
+}
+
+.top-bar-links ul li a{
+  color: black;
+}
+
+
+
+
+nav{                        /*black bar*/
+  background: #000;
+  text-align: center;
+  border-radius: 10px;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+  display: inline;
+}
+
+nav ul li a{
+  color: white;
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+nav ul li a:hover{
+  color: red;
+}
+
+nav ul li  ul li{
+  display: none;
+}
+
+nav ul li hover ul li{
+  display: block;
+}
+
+.homecontent{
+  width: 1000px;
+  background-color: #eee;
+}
+
+.homecol{
+  width: 313.33px;
+  float: left;
+  margin-left: 15px;
+}
+
+
+
+.homecol a{
+  float: right;
+}
+
+.uni img{
+  width: 64px;
+  border-radius: 50px;
+  float: left;
+  margin-right: 15px;
+}
+
+.quote i{
+  float: left;
+}                   /*end of black bar*/
+
+
+
+
+
+
+/*start of footer*/
+
+footer{
+  width: 1000px;
+  margin-top: 15px;
+  margin-bottom:15px;
+  float: left;
+}
+
+.footercol{
+  width: 231.25px;
+  float: left;
+  border-top: 1px solid #000;
+  margin-left: 15px;
+}
+
+.footercol h3{
+  color: #444; 
+}
+
+.tweet p{
+  font-size: 16px;
+}
+
+form input,textarea{
+  background: #eee;
+  padding: 5px;
+  margin-bottom: 5px;
+  width: 221.25px;
+  border-radius: 5px;
+  border: none;
+  font-family: inherit;
+}
+
+form button{
+  background: #eee;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-family: inherit;
+  font-size: 13px;
+  color: black;
+}
+
+.copyright{
+  width: 1000px;
+  background: #eee;
+  float: left;
+} 
+ .left{
+  float: left;
+  margin: 20px;
+ }
+
+.right{
+  float: right;
+  margin: 20px;
+}
+
+/*end of the foot*/
+
+
+
+
+
+
+/*new added css*/
+
+
+.p{
+  font-style: normal;
+  font-size: 18px;
+  color: black;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.imgucd{
+ 
+  margin: auto;
+  width: 60%;
+  
+  padding: 2  0px;
+}
+h1{
+  font-family: serif;
+  font-size: 40px;
+  text-align: left;
+}
+h2{
+  font-size: 25px;
+  text-align: center;
+}
+.content1{
+  background-color:#eee;
+}
+
+.content1 .content2{
+  margin-left: 40px;
+  margin-right:40px;
+}
+/*end of new added css*/
+

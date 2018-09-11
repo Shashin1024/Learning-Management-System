@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: url(<?php echo $img/IMG_2916%20a.jpg ?>) no-repeat;
+    background-size: cover;
+}
+
+.toggle_menu{
+    position: fixed;
+    padding: 15px 20px 15px 15px;
+    margin-top: 70px;
+    color:antiquewhite;
+    cursor: pointer;
+    background-color: black;
+    z-index: 1000000;
+    font-size: 6em;
+    opacity: 0;  
+}
+
+.sidebar_menu{
+    position: fixed;
+    width: 300px;
+    margin-left: 0px;
+    overflow: hidden;
+    height: 200vh;
+    max-height: 200vh;
+    /*background-color: rgb (17,17,17,0.9);*/
+    background-color: gray;
+    opacity: 0.6;
+   /* transition: all 0.3s ease-in-out;*/
+    
+}
+.fa-times{
+    right: 10px;
+    top:10px;
+    opacity: 0.7;
+    cursor:pointer;
+    position: absolute;
+    color:antiquewhite;
+    transition: all 0.3s ease-in-out;
+}
+.fa-times:hover{
+    opacity: 1;
+}
+.boxed_item{
+    font-family:sans-serif;
+    font-weight: 300;
+    padding: 10px 20px;
+    display: inline-block;
+    border: solid 6px black;
+    box-sizing: border-box;
+    font-size: 26px;
+    color:black;
+    text-align: center;
+    margin-top: 70px;    
+}
+
+.logo_bold{
+    font-weight: 800;
+    
+    
+}
+
+.logo_title{
+    color:black;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px o;  
+}
+
+.navigation_selection{
+    margin: 20px 0;
+    display: block;
+    width: 250px;
+    margin-left: 25px;
+}
+
+.navigation_item{
+    font-weight: 200;
+    font-family: sans-serif;
+    color: black;
+    padding: 12px 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    color:aliceblue;
+    border-bottom: solid 4px black;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.boxed_item_smaller{
+    font-size: 20px;
+    color: black;
+    width: 200px;
+    transition: all 0.3s ease-in-out;
+    border-width: 1px;
+    margin: 0 0 20px 0;
+}
+
+.boxed_item_smaller:hover{
+    background-color: darkgreen;
+    color: #111;
+    /*transition: all 0.3s ease-in-out;*/   
+}
+
+.hide_menu{
+    margin: -250px;   
+}
+
+.opacity_one{
+   opacity: 1;
+    /*transition: all 0.3s ease-in-out;*/
+}
